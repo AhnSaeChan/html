@@ -21,16 +21,33 @@
         // console.log("*****")
         
         
-        for(let i = 0; i < 5; i++){
-            for(let j = 4; j > i; j--){
-                console.log(" ");
+        for (let i = 1; i <= 5; i++) {
+            var a= ""; 
+            for (let j = 1; j <= i; j++) {
+                a += "*"; 
             }
-            for(let j = 0; i <= i; j++){
-                console.log("*");
+            console.log(a); 
+        }
+
+        for (let i = 1; i <= 5; i++) {
+            var a = ""; 
+            for (let j = 1; j <= 5 - i; j++) {
+              var a = a+ " "; 
+            } for (let k = 1; k <= i * 2 - 1; k++) {
+               var a = a+ "*"; 
             }
-            console.log("<br>");
-                
-            }
+            console.log(a); 
+        }
+
+        
+            
+             
+          
+            
+            
+        
+        
+        
         
 
 
