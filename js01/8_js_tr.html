@@ -1,0 +1,78 @@
+ <!DOCTYPE html>
+ <html lang="ko">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ </head>
+ <body>
+    <script>
+        // function date(a){
+        //     switch(a){
+        //         case "월":
+        //             var result = "월요일";
+        //             break;
+        //         case "화":
+        //             var result = "화요일";
+        //             break;
+        //         case "수":
+        //             var result = "수요일";
+        //             break;
+        //         case "목":
+        //             var result = "목요일";
+        //             break;
+        //         case "금":
+        //             var result = "금요일";
+        //             break;
+        //         case "토":
+        //             var result = "토요일";
+        //             break;
+        //         case "일":
+        //             var result = "일요일";
+        //             break;
+        //         default:
+        //             var result = "잘못된 입력"
+        //             break; 
+        //         }
+        //         return result;
+        //     }
+        // var state = date("화");
+        // alert(state);                    
+            
+
+        function kkkk(x,y){
+            var result = 0;
+            
+    
+         if (x == 0 && y == 0) {
+                var result = "0";
+            } else if (x == 0 || y == 0) {
+                if (x == 0) {
+                    var result = "y선에 있습니다.";
+                } else {
+                    var result ="x선에 있습니다.";
+                }
+            } else {
+                if (x > 0) {
+                    if (y > 0) {
+                        var result ="1";
+                    } else {
+                        var result ="4";
+                    }
+                } else {
+                    if (y > 0) {
+                        var result ="2";
+                    } else {
+                        var result ="3";
+                    }
+                }
+            }
+            return result;
+        }
+        var c = kkkk(0,0);
+        alert(c + "사분면에 위치 합니다");
+    
+        
+    </script>
+ </body>
+ </html>
